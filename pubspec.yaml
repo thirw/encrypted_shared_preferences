@@ -11,7 +11,10 @@ dependencies:
   flutter:
     sdk: flutter
   shared_preferences: ^0.5.4+5
-  flutter_string_encryption: ^0.3.1
+  flutter_string_encryption:
+    git:
+      url: https://bitbucket.org/manaosoftware/mobile-lib-flutter-string-encryption
+      ref: master
 
 dev_dependencies:
   flutter_test:
